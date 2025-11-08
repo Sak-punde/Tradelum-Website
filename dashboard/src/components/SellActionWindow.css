@@ -1,0 +1,74 @@
+
+
+.container {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  position: relative;
+  font-family: Arial, sans-serif;
+}
+
+.regular-order {
+  margin-bottom: 20px;
+}
+
+.inputs fieldset {
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.inputs legend {
+  font-size: 14px;
+  padding: 0 5px;
+}
+
+.inputs input {
+  width: 100%;
+  padding: 6px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+.btn-red {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.btn-red:hover {
+  background-color: #c0392b;
+}
+
+
+.btn-grey {
+  background-color: #ccc;
+  color: #333;
+}
+
+.btn-grey:hover {
+  background-color: #aaa;
+}
