@@ -1,0 +1,164 @@
+/* ================================
+   TRADELUM AUTH PAGE (Final Year Style)
+   ================================ */
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #f8f8f8 0%, #ffffff 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container */
+.auth-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Box */
+.auth-box {
+  width: 420px;
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 45px 40px;
+  box-shadow: 0 10px 30px rgba(12, 29, 54, 0.12);
+  text-align: center;
+  border-top: 5px solid #d19a00;
+  transition: all 0.4s ease-in-out;
+}
+
+.auth-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(12, 29, 54, 0.18);
+}
+
+/* Title */
+.auth-box h2 {
+  font-size: 26px;
+  font-weight: 600;
+  color: #0c1d36;
+  margin-bottom: 25px;
+}
+
+/* Input Fields */
+.auth-box input {
+  width: 100%;
+  padding: 13px 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  background-color: #fafafa;
+  font-size: 15px;
+  transition: 0.3s;
+  outline: none;
+}
+
+.auth-box input:focus {
+  border-color: #d19a00;
+  box-shadow: 0 0 6px rgba(209, 154, 0, 0.3);
+  background-color: #fff;
+}
+
+/* Button */
+
+.btn {
+  display: inline-block;
+  background-color: #d19a00; /* nice blue button color */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none; /* removes underline */
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover{
+background-color: #0c1d36;
+  color: #ffd369;
+  transform: scale(1.03);
+}
+
+.auth-box button {
+  width: 100%;
+  margin-top: 15px;
+  background-color: #d19a00;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  padding: 13px 0;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.auth-box button:hover {
+  background-color: #0c1d36;
+  color: #ffd369;
+  transform: scale(1.03);
+}
+
+/* Message */
+.msg {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #0c1d36;
+  font-weight: 500;
+}
+
+/* Links */
+.link {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+.link a {
+  color: #d19a00;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.link a:hover {
+  color: #0c1d36;
+}
+
+/* Background Accent */
+body::before {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(circle, #d19a00 20%, transparent 70%);
+  top: 10%;
+  left: 10%;
+  opacity: 0.1;
+}
+
+body::after {
+  content: "";
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, #0c1d36 20%, transparent 70%);
+  bottom: 10%;
+  right: 10%;
+  opacity: 0.08;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .auth-box {
+    width: 90%;
+    padding: 35px 25px;
+  }
+}

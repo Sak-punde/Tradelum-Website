@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.nav-link {
+   margin-left:40px;
+
+  color: #000;
+  transition: color 0.3s ease; 
+}
+
+.nav-link:hover {
+  color: goldrod; 
+}
+
+.foot-link{
+  margin-left:40px;
+}
+
+#supportHero {
+  background-color: goldenrod;
+  font-size: 16px;
+  color: aliceblue;
+}
+
+#supportWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+}
+
+#supportHero a {
+  color: aliceblue;
+  font-family: "Inter", sans-serif;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+.super-links {
+  display: inline-block;
+  margin-top: 10px;
+  color: white;
+  text-decoration: underline;
+}
+
+.super-links:hover {
+  text-decoration: none;
+  color: blue;
+}
+
+#supportHero input {
+  padding: 15px;
+  width: 100%;
+  max-width: 500px;
+  font-size: 20px;
+  border-radius: 3px;
+  border: none;
+  color: black  ;
+}
+.brokerage-calculator {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.brokerage-calculator h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: goldenrod;
+}
+
+.segment-selector {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.segment-selector button {
+  padding: 8px 16px;
+  border: 1px solid goldenrod;
+  background: transparent;
+  color: goldenrod;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.segment-selector .active,
+.segment-selector button:hover {
+  background: goldenrod;
+  color: white;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.inputs input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.inputs button {
+  padding: 10px;
+  background: goldenrod;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.results {
+  margin-top: 2rem;
+  border-top: 1px solid #ccc;
+  padding-top: 1rem;
+}

@@ -1,0 +1,10 @@
+
+<svg width="400" height="100" viewBox="0 0 400 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Logo icon -->
+  <path d="M0 0 Q0 50 50 50 V100 H0 Z" fill="#0a2942" />
+
+  <!-- Text -->
+  <text x="70" y="70" font-family="Montserrat, sans-serif" font-size="48" fill="#0a2942" font-weight="bold">
+    Tradelum
+  </text>
+</svg>
